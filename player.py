@@ -13,7 +13,8 @@ class MP3Player(tk.Frame):
     Methods:
         __init__(self, parent)
         load_music(self)
-        play_pause(self)
+        play_pause(self, path)
+        player_wrapper(self)
         reset_player(self)
         save_mp3(self)
     """
