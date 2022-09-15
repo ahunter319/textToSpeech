@@ -86,7 +86,7 @@ class TextConverter(tk.Frame):
             self.player.welcome_on = False
             self.player.load_music()
 
-            messagebox.showinfo(title="Success!", message="Text converted. Try listening in the player bellow!")
+            messagebox.showinfo(title="Success!", message="Text converted. Try listening in the player below!")
         else:
             messagebox.showinfo(title="Text Empty", message="There is nothing to convert!")
 
